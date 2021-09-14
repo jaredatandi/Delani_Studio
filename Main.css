@@ -15,14 +15,14 @@ body{
 
 }
 .welcometext{
-    padding-top: 370px;
+    padding-top: 300px;
     padding-right: 100px; 
     color: white;
     font-size: large;
     line-height: 30px;
 }
 .mclick{
-    padding-top: 200px;
+    padding-top: 170px;
 }
 .AboutUs{
     text-align: center;
@@ -43,9 +43,17 @@ body{
     text-align: center;
     
 }
+.portfolio{
+    display: flex;
+   justify-content: space-evenly;
+}
+.col-md-4{
+    padding: 100px;
+}
 .container{
     margin: 10px;
     padding: 10px;
+
 }
 .row{
     padding: 10px;
